@@ -32,6 +32,7 @@ class Api::ContactsController < ApplicationController
     @contact.email = params[:params] || @contact.email
     @contact.phone_numner = params[:params] || @contact.phone_numner
     @contact.bio = params[:params] || @contact.bio
+    
     @contact.save
     render 'update.json.jbuilder'
   end
