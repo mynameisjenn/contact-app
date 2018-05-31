@@ -1,4 +1,7 @@
 json.id contact.id
+
+json.group contact.groups
+
 json.first_name contact.first_name
 json.middle_name contact.middle_name
 json.last_name contact.last_name
