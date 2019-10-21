@@ -1,5 +1,4 @@
 json.id contact.id
-
 json.group contact.groups
 
 json.first_name contact.first_name

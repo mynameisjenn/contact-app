@@ -34,7 +34,7 @@ class Api::ContactsController < ApplicationController
     @contact.bio = params[:params] || @contact.bio
     
     @contact.save
-    render 'update.json.jbuilder'
+    render 'show.json.jbuilder'
   end
 
   def destroy
